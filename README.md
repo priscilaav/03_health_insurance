@@ -28,10 +28,12 @@ To tackle this challenge, my strategy was to employ machine learning techniques 
 
 - Hyperparameter Optimization: The best model will have its hyperparameters adjusted.
 
-- Deployment: The final model will be deployed in a production environment for ongoing use.
-
 # 4. Lessons Learned
 
 - Despite applying techniques such as ensemble learning and grid search, we were unable to enhance the model to achieve a balance between increased accuracy and model speed. In fact, in some cases, there was a decline in performance.
 
 # 5. Next Steps to Improve
+
+- Deploy the Model: Deploying the trained model to make it accessible for real-world use. This involves setting up a deployment environment where the model can be hosted and accessed via an API or other suitable means.
+
+- Google Sheets Integration: Creating a version of the model that can run within Google Sheets. This would allow users to input data into a spreadsheet and trigger predictions by pressing a button, with the model processing the input and providing predictions directly within the spreadsheet.
